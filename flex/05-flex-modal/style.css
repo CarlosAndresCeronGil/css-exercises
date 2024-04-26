@@ -20,6 +20,26 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  gap: 10px;
+  padding: 12px;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.header-and-close-button {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.continue-cancel-buttons {
+  display: flex;
+  margin-top: 10px;
+  gap: 5px;
 }
 
 .icon {
